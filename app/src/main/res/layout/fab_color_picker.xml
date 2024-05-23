@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/purple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#673AB7"
+            android:onClick="changeColor"
+            android:tag="Purple"
+            android:text="@string/Purple"
+            android:textSize="18sp"
+            app:strokeColor="#FEFEFE" />
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#4CAF50"
+            android:onClick="changeColor"
+            android:tag="Green"
+            android:text="@string/Green"
+            android:textColor="#2E2E2E"
+            android:textColorLink="#FEFEFE"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:onClick="changeColor"
+            android:tag="Blue"
+            android:text="@string/Blue"
+            android:textColor="#373737"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E6133C"
+            android:onClick="onHard"
+            android:tag="hard"
+            android:text="@string/hard"
+            android:textSize="18sp"
+            app:strokeColor="#FEFEFE"/>
+
+        <Button
+            android:id="@+id/easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#178734"
+            android:onClick="onEasy"
+            android:tag="Easy"
+            android:text="@string/Easy"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HCats Lamoreaux Landon</string>
+    <string name="button_4">Button 4</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_2">Button 2</string>
+    <string name="this_is_a_string">This is a string</string>
+    <string name="textview">TextView</string>
+    <string name="button4">Button4</string>
+    <string name="button5">Button5</string>
+    <string name="button6">Button6</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+    <string name="herding_cats">Herding Cats</string>
+    <string name="treat">Treat</string>
+    <string name="treatLabel">Treats: </string>
+    <string name="movesLabel">Moves: </string>
+    <string name="CaughtLabel">Caught: </string>
+    <string name="down">Down</string>
+    <string name="right">Right</string>
+    <string name="reset">Reset</string>
+    <string name="Empty">E</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="Purple">Purple</string>
+    <string name="Easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="settings">Settings</string>
+    <string name="caught">C</string>
+    <string name="treats">T</string>
+</resources>
